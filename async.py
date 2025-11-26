@@ -27,12 +27,12 @@ def main():
 
 
 if __name__ == "__main__":
-    from server import start_server
-    from multiprocessing import Process
-    # Start the server in a separate process
-    server_process = Process(target=start_server)
-    server_process.start()
+    # from server import start_server
+    # from multiprocessing import Process
+    # # Start the server in a separate process
+    # server_process = Process(target=start_server)
+    # server_process.start()
     
     main()
 
-    server_process.terminate()
+    # server_process.terminate()

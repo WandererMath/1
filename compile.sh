@@ -10,7 +10,6 @@ g++ -O3 \
     -fgraphite-identity \
     -floop-nest-optimize \
     -floop-parallelize-all \
-    -ftree-parallelize-loops=8 \
     -fopenmp \
     matvec_large.cpp -o matvec_large_graphite
 
